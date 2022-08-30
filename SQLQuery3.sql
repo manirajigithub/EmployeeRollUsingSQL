@@ -60,19 +60,19 @@ SELECT MAX (Salary) FROM Employee_Payroll Where Gender = 'F';
 SELECT COUNT (Salary) FROM Employee_Payroll Where Gender ='F';
 
 
-ALTER TABLE Emp_Payroll 
+ALTER TABLE Employee_Payroll 
 ADD PhoneNumber float;
 
-ALTER TABLE Emp_Payroll 
+ALTER TABLE Employee_Payroll 
 ADD Address varchar(300) ;
 
-ALTER TABLE Emp_Payroll 
+ALTER TABLE Employee_Payroll 
 ADD Department varchar(250) NOT NULL ;
 
-SELECT * FROM Emp_Payroll
+SELECT * FROM Employee_Payroll
 
-UPDATE Emp_Payroll Set PhoneNumber = 8445412318 , Address = 'India' , Department = 'Engineering' where EmpId = 1 ;
-UPDATE Emp_Payroll Set PhoneNumber = 8897561234 , Address = 'India' , Department = 'Research' where EmpId = 2;
+UPDATE Employee_Payroll Set PhoneNumber = 8445412318 , Address = 'India' , Department = 'Engineering' where EmpId = 1 ;
+UPDATE Employee_Payroll Set PhoneNumber = 8897561234 , Address = 'India' , Department = 'Research' where EmpId = 2;
 
 
 
