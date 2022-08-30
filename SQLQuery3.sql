@@ -18,3 +18,4 @@ Insert into Employee_Payroll
 ('Rajeswari Balusupati ', 100000 ,'12-10-2021'),
 ('Manasa  Balusupati' , 50000 , '03-01-2014'),
 ('Jammula  Manikanta' , 200000 , '06-04-2019')
+Select * FROM Employee_Payroll;
