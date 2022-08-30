@@ -18,3 +18,13 @@ Insert into Employee_Payroll
 ('Rajeswari Balusupati ', 100000 ,'12-10-2021'),
 ('Manasa  Balusupati' , 50000 , '03-01-2014'),
 ('Jammula  Manikanta' , 200000 , '06-04-2019')
+
+Select * FROM Employee_Payroll;
+SELECT Salary  FROM Employee_Payroll 
+Where name = 'Rajeswari Balusupati';
+SELECT * FROM Employee_Payroll
+Where Start BETWEEN CAST('03-01-2014' AS date) AND ('06-04-2019');
+
+ALTER table Employee_Payroll ADD Gender varchar(6);
+UPDATE Employee_Payroll Set Gender = 'M' where name = 'Rajeswari Balusupati ' or name = 'Manasa Balusupati' or name = 'Jammula Manikanta';
+SELECT * FROM Employee_Payroll
