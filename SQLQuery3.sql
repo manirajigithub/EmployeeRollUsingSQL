@@ -68,6 +68,6 @@ UPDATE Employee_Payroll Set PhoneNumber = 8897561234 , Address = 'India' , Depar
 
 ALTER TABLE Employee_Payroll ADD BasicPay BIgInt , Deductions BigInt , TaxablePay BigInt ,IncomeTax BigInt ,NetPay BigInt;
 UPDATE Employee_Payroll Set BasicPay = 10000 , Deductions = 500 , TaxablePay = 2000 , IncomeTax = 1000 , NetPay = 10500 WHERE Name = 'Manikanta' OR Name='Rajeswari';
-
+SELECT * FROM Employee_Payroll
 
 
